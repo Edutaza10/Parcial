@@ -4,7 +4,6 @@ import LanguageSwitcher from "./language-switcher.vue";
 import {ref} from "vue";
 import {useI18n} from "vue-i18n";
 import FooterContent from "./footer-content.vue";
-// import AuthenticationSection from "../../../iam/presentation/components/authentication-section.vue";
 const { t } = useI18n();
 
 const drawer = ref(false);
@@ -18,7 +17,7 @@ const items = [
   {label: 'option.home', to: '/home'},
   {label: 'option.about', to: '/about'},
   {label: 'option.categories', to: '/GeoMine/categories'},
-  {label: 'option.maquinaria', to: '/GeoMine/maquinaria'}
+  {label: 'option.maquinarias', to: '/GeoMine/maquinarias'}
 ];
 </script>
 
@@ -29,7 +28,7 @@ const items = [
     <pv-toolbar class="bg-primary">
       <template #start>
         <pv-button class="p-button-text" icon="pi pi-bars" @click="toggleDrawer"/>
-        <h3>ACME Learning Center</h3>
+        <h3>GeoMine</h3>
       </template>
       <template #end>
         <div class="flex-column mr-3">
@@ -37,8 +36,6 @@ const items = [
             <router-link :to="item.to" :class="slotProps['class']">{{ t(item.label) }}</router-link>
           </pv-button>
         </div>
-        <!-- To add when IAM is implemented -->
-        <!--<authentication-section/>-->
         <language-switcher/>
       </template>
     </pv-toolbar>

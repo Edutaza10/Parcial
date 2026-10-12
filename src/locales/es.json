@@ -3,7 +3,7 @@
     "home": "Inicio",
     "about": "Acerca de",
     "categories": "Categorías",
-    "tutorials": "Tutoriales"
+    "maquinarias": "maquinariaes"
   },
   "authoring-phrase": {
     "intro": "Hecho con",
@@ -39,19 +39,19 @@
     "save": "Guardar",
     "cancel": "Cancelar"
   },
-  "tutorials": {
-    "title": "Tutoriales",
+  "maquinarias": {
+    "title": "maquinariaes",
     "id": "ID",
     "summary": "Resumen",
     "category-id": "ID de Categoría",
     "actions": "Acciones",
-    "new": "Nuevo Tutorial",
+    "new": "Nuevo maquinaria",
     "confirm-delete": "¿Estás seguro de que quieres eliminar {title}?",
     "delete-header": "Confirmar Eliminación"
   },
-  "tutorial": {
-    "new-title": "Crear Nuevo Tutorial",
-    "edit-title": "Editar Tutorial",
+  "maquinaria": {
+    "new-title": "Crear Nuevo maquinaria",
+    "edit-title": "Editar maquinaria",
     "title": "Título",
     "summary": "Resumen",
     "category": "Categoría",
