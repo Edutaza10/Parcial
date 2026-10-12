@@ -4,7 +4,6 @@ import LanguageSwitcher from "./language-switcher.vue";
 import {ref} from "vue";
 import {useI18n} from "vue-i18n";
 import FooterContent from "./footer-content.vue";
-// To import when IAM is implemented:
 // import AuthenticationSection from "../../../iam/presentation/components/authentication-section.vue";
 const { t } = useI18n();
 
@@ -18,8 +17,8 @@ const toggleDrawer = () => {
 const items = [
   {label: 'option.home', to: '/home'},
   {label: 'option.about', to: '/about'},
-  {label: 'option.categories', to: '/publishing/categories'},
-  {label: 'option.tutorials', to: '/publishing/tutorials'}
+  {label: 'option.categories', to: '/GeoMine/categories'},
+  {label: 'option.maquinaria', to: '/GeoMine/maquinaria'}
 ];
 </script>
 
